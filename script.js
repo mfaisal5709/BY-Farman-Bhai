@@ -13,7 +13,6 @@
 // // add(4,6,8,)
 
 
-
 // // ___________________________________________________________1 st_____________________________________________________
 // // function addnumber(...argm){
 // //     var count = 0;
@@ -236,8 +235,6 @@
         //     const[key,value] = entry;
         //     console.log(key,value);
         // });
-        
-        
         // const array = ["name", "luffy","age","15"]
         
         
@@ -255,7 +252,6 @@
 const array1 = ['a', 'b', 'c'];
 
 const iterator1 = array1.entries();
-
 console.log(iterator1.next(1).value);
 console.log(iterator1.next(1).value);
 
