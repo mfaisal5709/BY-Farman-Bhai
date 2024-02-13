@@ -187,16 +187,16 @@
 
 // var arr = [2,3,4,5,6,7];
 // function newArr(number){
-//     return number+1
-// }
-// console.log(arr.map(newArr));
-
-// var obj = [
-//     {
-//         id:1,
-//         name:'hello'
-//     },
-//     {
+    //     return number+1
+    // }
+    // console.log(arr.map(newArr));
+    
+    // var obj = [
+        //     {
+            //         id:1,
+            //         name:'hello'
+            //     },
+            //     {
 //         id:2,
 //         name:'welcome'
 //     }
@@ -209,49 +209,55 @@
 // var num2 = ['F','A','I','S','A','L']
 // var arr = [];
 // for(i=0;i<num.length;i++){
-//     arr.push({num2[i]:num[i]})
-// }
-// console.log(arr);
-
-
-// var num = [1, 2, 3, 4, 5, 6];
-// var num2 = ['F', 'A', 'I', 'S', 'A', 'L'];
-// var arr = [];
-
-// for (var i = 0; i < num.length; i++) {
-//     var obj = {};
-//     obj[num2[i]] = num[i];
-//     arr.push(obj);
-// }
+    //     arr.push({num2[i]:num[i]})
+    // }
+    // console.log(arr);
+    
+    
+    // var num = [1, 2, 3, 4, 5, 6];
+    // var num2 = ['F', 'A', 'I', 'S', 'A', 'L'];
+    // var arr = [];
+    
+    // for (var i = 0; i < num.length; i++) {
+        //     var obj = {};
+        //     obj[num2[i]] = num[i];
+        //     arr.push(obj);
+        // }
 
 // console.log(arr);
 
 // const user = {
-//     name : 'luffy',
-//     age : 21,
-//     mail : 'hello@gmail.com'
-// }
+    //     name : 'luffy',
+    //     age : 21,
+    //     mail : 'hello@gmail.com'
+    // }
+    
+    // Object.entries(user).forEach(entry => {
+        //     const[key,value] = entry;
+        //     console.log(key,value);
+        // });
+        
+        
+        // const array = ["name", "luffy","age","15"]
+        
+        
+// let chk = array.push()
 
-// Object.entries(user).forEach(entry => {
-//     const[key,value] = entry;
-//     console.log(key,value);
-// });
-
-
-const array = ["name", "luffy","age","15"]
-
-
-let chk = array.push()
-
-console.log(chk);
-
-
+// console.log(chk);
 
 
 
 
+// // ________________________________________________________19/12/23__________________________________________________________________________
 
 
+
+const array1 = ['a', 'b', 'c'];
+
+const iterator1 = array1.entries();
+
+console.log(iterator1.next(1).value);
+console.log(iterator1.next(1).value);
 
 
 
