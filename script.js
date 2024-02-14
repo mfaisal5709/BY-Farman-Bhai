@@ -180,7 +180,6 @@
 // console.log(arr.filter(isEven));
 
 
-
 // console.log( [2,3,4,5,6,8,9].map((v) => v+1))
 
 
